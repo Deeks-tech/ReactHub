@@ -8,7 +8,7 @@ export default function FetchQuery() {
         <li>To make the fetch we will use Axios</li>
         <li>
           we will also make a mock backend server via
-          <a href="https://www.npmjs.com/package/json-server">JSON server</a>
+          <a href="https://www.npmjs.com/package/json-server"> JSON server</a>
         </li>
       </ul>
       <p>
