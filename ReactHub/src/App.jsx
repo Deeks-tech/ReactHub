@@ -1,9 +1,12 @@
 import "./App.css";
+import FetchQuery from "./components/FetchQuery";
 
 function App() {
   return (
     <>
-      <div>hello world</div>
+      <h1>ReactHub</h1>
+
+      <FetchQuery />
     </>
   );
 }
