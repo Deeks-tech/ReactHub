@@ -11,6 +11,10 @@ export default function FetchQuery() {
           <a href="https://www.npmjs.com/package/json-server">JSON server</a>
         </li>
       </ul>
+      <p>
+        Things to do tomorow : sort axios install and install JSON sevrer and
+        provide mock data
+      </p>
     </section>
   );
 }
