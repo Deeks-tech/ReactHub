@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  border: 1px black solid;
+  margin: 1rem;
+  padding: 1rem;
+}
