@@ -1,0 +1,11 @@
+{
+  "club": {
+    "id": 1,
+    "name": "Newcastle United",
+    "founded": "1892",
+    "stadium": "St James' Park",
+    "capacity": 52354,
+    "manager": "Eddie Howe",
+    "league": "Premier League"
+  }
+}
