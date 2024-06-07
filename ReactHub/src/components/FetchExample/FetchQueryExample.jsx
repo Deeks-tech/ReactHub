@@ -27,6 +27,13 @@ export default function FetchQuery() {
       <h1>FetchQuery component</h1>
       <h3>This app will show how to use and render via React Query</h3>
       <ul>
+        {" "}
+        <li>
+          <strong>
+            Please note the fetch will not work without the script for the JSON
+            server running
+          </strong>
+        </li>
         <li>We will use react query to handle the management of our Fetch</li>
         <li>To make the fetch we will use Axios</li>
         <li>

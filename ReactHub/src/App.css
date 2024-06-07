@@ -28,3 +28,12 @@ section {
   text-align: center;
   font-size: 2rem;
 }
+
+.counter-section button {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.counter-container {
+  margin-top: 1rem;
+}

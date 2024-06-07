@@ -11,6 +11,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import CounterExample from "./components/CounterExample/CounterExample";
 import IteratingList from "./components/IteratingListExample/IteratingList";
 import OpenClose from "./components/OpenClose/OpenClose";
+import DateCounter from "./components/CounterExample/DateCounterExample";
 
 const queryClient = new QueryClient();
 
@@ -35,6 +36,7 @@ function App() {
       <CounterExample />
       <IteratingList />
       <OpenClose />
+      <DateCounter />
     </QueryClientProvider>
   );
 }
