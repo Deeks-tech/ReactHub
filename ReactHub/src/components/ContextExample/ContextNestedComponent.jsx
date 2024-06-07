@@ -2,7 +2,8 @@ import { useContext } from "react";
 import { VariableToPassContext } from "../../App";
 
 export default function ContextNestedComponent() {
-  const passedValue = useContext(VariableToPassContext);
+  const { variableToPass } = useContext(VariableToPassContext);
+  const { passMore } = useContext(VariableToPassContext);
 
   return (
     <section>
@@ -11,7 +12,8 @@ export default function ContextNestedComponent() {
         The following variable has been passed via context rather than props
       </p>
       <p>
-        Variable passed via props = <strong>{passedValue}</strong>
+        Variables passed via props = <strong>{variableToPass} </strong>&
+        <strong> {passMore}</strong>
       </p>
     </section>
   );
