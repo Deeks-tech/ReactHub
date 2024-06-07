@@ -11,3 +11,20 @@ section {
 .header-title {
   text-align: center;
 }
+
+.joke-wrapper {
+  margin-top: 1rem;
+}
+
+.remove-btn {
+  margin-top: 1rem;
+}
+
+.next-btn {
+  margin-top: 1rem;
+}
+
+.open-header {
+  text-align: center;
+  font-size: 2rem;
+}
