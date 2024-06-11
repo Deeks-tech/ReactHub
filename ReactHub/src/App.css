@@ -41,11 +41,13 @@ section {
 .red {
   background-color: red;
   color: white;
+  padding: 1rem;
 }
 
 .blue {
   background-color: blue;
   color: white;
+  padding: 1rem;
 }
 
 .open-btn {
@@ -56,4 +58,18 @@ h2 span {
   color: red;
   border: 2px solid black;
   padding: 5px;
+}
+
+.num1,
+.num2 {
+  display: flex;
+  margin: 1rem;
+}
+
+.num1 p {
+  margin: 1rem;
+}
+
+.num2 p {
+  margin: 1rem;
 }
