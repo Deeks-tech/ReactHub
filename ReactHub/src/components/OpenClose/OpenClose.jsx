@@ -27,9 +27,9 @@ export default function OpenClose() {
         </p>
       </div>
       <button onClick={handleOpen}>{isOpen ? "close me " : "open me"}</button>
-      <div data-cy="expand">
+      <div>
         {isOpen && (
-          <section>
+          <section data-cy="expand">
             <h3 className="open-header">Hello World 😎</h3>
             <div>
               <p></p>
