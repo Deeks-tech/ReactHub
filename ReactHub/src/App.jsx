@@ -13,6 +13,8 @@ import IteratingList from "./components/IteratingListExample/IteratingList";
 import OpenClose from "./components/OpenClose/OpenClose";
 import DateCounter from "./components/CounterExample/DateCounterExample";
 import ButtonChange from "./components/ToggleExample/ButtonChange";
+import InputRender from "./components/InputExample/inputRender";
+import SumExample from "./components/SumExample/SumExample";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +41,8 @@ function App() {
       <OpenClose />
       <DateCounter />
       <ButtonChange />
+      <InputRender />
+      <SumExample />
     </QueryClientProvider>
   );
 }
