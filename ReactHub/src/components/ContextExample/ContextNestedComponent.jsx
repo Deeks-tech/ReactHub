@@ -2,8 +2,8 @@ import { useContext } from "react";
 import { VariableToPassContext } from "../../App";
 
 export default function ContextNestedComponent() {
-  const { variableToPass } = useContext(VariableToPassContext);
-  const { passMore } = useContext(VariableToPassContext);
+  const { variableToPass, passMore } = useContext(VariableToPassContext);
+  // const { passMore } = useContext(VariableToPassContext);
 
   return (
     <section>
