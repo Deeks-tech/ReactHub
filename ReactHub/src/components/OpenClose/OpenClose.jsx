@@ -26,11 +26,7 @@ export default function OpenClose() {
           false display nothing.
         </p>
       </div>
-      {isOpen ? (
-        <button onClick={handleOpen}>Close</button>
-      ) : (
-        <button onClick={handleOpen}>open</button>
-      )}
+      <button onClick={handleOpen}>{isOpen ? "close me " : "open me"}</button>
       <div>
         {isOpen && (
           <section>
