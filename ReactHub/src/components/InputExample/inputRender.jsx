@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Test from "./test";
+import Output from "./Output";
 export default function InputRender() {
   const [input, setInput] = useState("");
   const [showInput, setShowInput] = useState(false);
@@ -16,7 +16,7 @@ export default function InputRender() {
   return (
     <section>
       {showInput ? (
-        <Test input={input} setInput={setInput} setShowInput={setShowInput} />
+        <Output input={input} setInput={setInput} setShowInput={setShowInput} />
       ) : (
         <div>
           <div>
