@@ -9,7 +9,9 @@ export default function OpenClose() {
   return (
     <section>
       <div>
-        <h2>Open Close toggle example</h2>
+        <h2>
+          Open Close toggle Example <span> Cypress Component test </span>
+        </h2>
         <p>
           This example uses a couple of different concepts , useState and
           conditional rendering{" "}

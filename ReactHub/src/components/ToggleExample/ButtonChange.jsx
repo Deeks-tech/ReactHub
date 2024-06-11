@@ -11,7 +11,9 @@ export default function ButtonChange() {
   return (
     <section>
       <div>
-        <h2>Button Change</h2>
+        <h2>
+          Button Change <span>Cypress e2e test</span>
+        </h2>
       </div>
       <div>
         <button
