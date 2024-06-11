@@ -14,8 +14,12 @@ export default function ButtonChange() {
         <h2>Button Change</h2>
       </div>
       <div>
-        <button onClick={handleClick} className={btnColor}>
-          {btnColor ? "change to blue " : "change to red"}
+        <button
+          data-cy="ButtonComponent"
+          onClick={handleClick}
+          className={btnColor}
+        >
+          {btnColor === "red" ? "change to blue " : "change to red"}
         </button>
       </div>
     </section>
