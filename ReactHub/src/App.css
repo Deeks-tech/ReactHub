@@ -1,22 +1,29 @@
 * {
   box-sizing: border-box;
 }
-
+/*overall section styling*/
 section {
   border: 1px black solid;
   margin: 1rem;
   padding: 1rem;
 }
 
+/*testing tags*/
+h2 span {
+  color: red;
+  border: 2px solid black;
+  padding: 5px;
+}
+/*Nav*/
 .nav-wrapper {
   display: flex;
   justify-content: space-evenly;
 }
-
+/*Header*/
 .header-title {
   text-align: center;
 }
-
+/*Fetch with Async*/
 .joke-wrapper {
   margin-top: 1rem;
 }
@@ -24,16 +31,17 @@ section {
 .remove-btn {
   margin-top: 1rem;
 }
-
+/*Iterating List*/
 .next-btn {
   margin-top: 1rem;
 }
-
+/*open close*/
 .open-header {
   text-align: center;
   font-size: 2rem;
 }
 
+/*Date counter example */
 .counter-section button {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -43,6 +51,7 @@ section {
   margin-top: 1rem;
 }
 
+/*Toggle example*/
 .red {
   background-color: red;
   color: white;
@@ -55,16 +64,7 @@ section {
   padding: 1rem;
 }
 
-.open-btn {
-  color: white;
-}
-
-h2 span {
-  color: red;
-  border: 2px solid black;
-  padding: 5px;
-}
-
+/*sum example*/
 .num1,
 .num2 {
   display: flex;
