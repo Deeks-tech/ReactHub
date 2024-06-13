@@ -16,6 +16,7 @@ import ButtonChange from "./components/ToggleExample/ButtonChange";
 import InputRender from "./components/InputExample/inputRender";
 import SumExample from "./components/SumExample/SumExample";
 import Nav from "./components/Nav";
+import RouterExample from "./components/RouterExample/RouterExample";
 
 const queryClient = new QueryClient();
 
@@ -46,6 +47,7 @@ function App() {
       <ButtonChange />
       <InputRender />
       <SumExample />
+      <RouterExample />
     </QueryClientProvider>
   );
 }

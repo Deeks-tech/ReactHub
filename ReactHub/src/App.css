@@ -8,6 +8,11 @@ section {
   padding: 1rem;
 }
 
+.nav-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .header-title {
   text-align: center;
 }
