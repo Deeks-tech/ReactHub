@@ -15,9 +15,7 @@ export default function InputRender() {
   }
   return (
     <section>
-      {showInput ? (
-        <Output input={input} setInput={setInput} setShowInput={setShowInput} />
-      ) : (
+      {!showInput && (
         <div>
           <div>
             <h2>Input {">"} Render example</h2>
@@ -31,6 +29,9 @@ export default function InputRender() {
             <button type="submit">{!showInput ? "submit" : "clear"}</button>
           </form>
         </div>
+      )}
+      {showInput && (
+        <Output input={input} setInput={setInput} setShowInput={setShowInput} />
       )}
     </section>
   );
