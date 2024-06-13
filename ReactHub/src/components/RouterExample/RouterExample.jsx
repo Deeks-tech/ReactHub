@@ -7,7 +7,7 @@ export default function RouterExample() {
       <div>
         <p>
           React router has been implement to allow the <code>Nav.jsx </code>
-          to link to other pages in our site.
+          to link to other pages in our site. See the links at the top of page.
           <p>
             {" "}
             <a href="https://reactrouter.com/en/main/routers/create-browser-router">
