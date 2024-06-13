@@ -15,6 +15,7 @@ import DateCounter from "./components/CounterExample/DateCounterExample";
 import ButtonChange from "./components/ToggleExample/ButtonChange";
 import InputRender from "./components/InputExample/inputRender";
 import SumExample from "./components/SumExample/SumExample";
+import Nav from "./components/Nav";
 
 const queryClient = new QueryClient();
 
@@ -23,9 +24,11 @@ const variableToPass = "Hello World";
 const passMore = "Hello Universe";
 
 export const VariableToPassContext = createContext();
+
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
+      <Nav />
       <Header />
       <FetchQueryExample />
 
