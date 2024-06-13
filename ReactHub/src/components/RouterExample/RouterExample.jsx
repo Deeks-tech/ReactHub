@@ -6,7 +6,7 @@ export default function RouterExample() {
       </div>
       <div>
         <p>
-          React router has been implement to allow the <code>Nav.jsx</code>
+          React router has been implement to allow the <code>Nav.jsx </code>
           to link to other pages in our site.
           <p>
             {" "}
