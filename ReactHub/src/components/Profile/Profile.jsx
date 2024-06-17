@@ -11,7 +11,7 @@ export default function Profile({
   return (
     <section>
       <div>
-        <div>Image placeholder</div>
+        <div>Image placeholder for .. {name}</div>
         <p>{name}</p>
         <p>{email}</p>
         <p>{bio}</p>
