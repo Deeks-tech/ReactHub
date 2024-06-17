@@ -23,7 +23,7 @@ export default function SumExample() {
           it is also imported into a test file <code>sumExample.test.js</code>{" "}
           so this can be used alongside vitest and tested{" "}
         </p>
-        <div class="num1">
+        <div className="num1">
           <button onClick={() => setNum1((prevNum1) => prevNum1 + 1)}>
             ⬆️
           </button>
@@ -32,7 +32,7 @@ export default function SumExample() {
             ⬇️
           </button>
         </div>
-        <div class="num1">
+        <div className="num1">
           <button onClick={() => setNum2((prevNum2) => prevNum2 + 1)}>
             ⬆️
           </button>
