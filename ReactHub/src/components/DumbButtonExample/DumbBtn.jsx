@@ -1,6 +1,8 @@
-export default function DumbBtn({ children, onClick, onChange }) {
+import styles from "./styles.module.css";
+
+export default function DumbBtn({ children, onClick }) {
   return (
-    <button onClick={onClick} onChange={onChange}>
+    <button className={styles.dumb_btn} onClick={onClick}>
       {children}
     </button>
   );
