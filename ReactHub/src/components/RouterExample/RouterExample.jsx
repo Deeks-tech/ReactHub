@@ -5,16 +5,20 @@ export default function RouterExample() {
         <h2>React Router</h2>
       </div>
       <div>
-        <p>
-          React router has been implement to allow the <code>Nav.jsx </code>
-          to link to other pages in our site. See the links at the top of page.
+        <div>
+          <p>
+            React router has been implement to allow the <code>Nav.jsx </code>
+            to link to other pages in our site. See the links at the top of
+            page.
+          </p>
+
           <p>
             {" "}
             <a href="https://reactrouter.com/en/main/routers/create-browser-router">
               https://reactrouter.com/en/main/routers/create-browser-router
             </a>
           </p>
-        </p>
+        </div>
         <p>
           in <code>Main.jsx</code> paths are defined and then prodivded
         </p>
