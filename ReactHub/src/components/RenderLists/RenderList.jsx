@@ -18,8 +18,8 @@ export default function RenderList({ data }) {
           <code>Object.values(data.club)</code> so it can be mapped over.
         </p>
         <ol>
-          {dataArray.map((stats) => (
-            <li>{stats}</li>
+          {dataArray.map((stats, index) => (
+            <li key={index}>{stats}</li>
           ))}
         </ol>
       </div>
