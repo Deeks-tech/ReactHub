@@ -22,6 +22,8 @@ import DumbBtnContainer from "./components/DumbButtonExample/DumbBtnContainer";
 import Object from "./components/ObjectExample/Object";
 import InputWithValidation from "./components/InputExample/InputWithValidation";
 import YesNo from "./components/FetchExample/FetchExample";
+import Time from "./components/UseEffect/TimeExample/Time";
+import UseEffectDemo from "./components/UseEffect/useEffect";
 
 const queryClient = new QueryClient();
 
@@ -58,6 +60,8 @@ function App() {
       <Object />
       <InputWithValidation />
       <YesNo />
+      <Time />
+      <UseEffectDemo />
     </QueryClientProvider>
   );
 }
