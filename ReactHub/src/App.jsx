@@ -24,6 +24,7 @@ import InputWithValidation from "./components/InputExample/InputWithValidation";
 import YesNo from "./components/FetchExample/FetchExample";
 import Time from "./components/UseEffect/TimeExample/Time";
 import UseEffectDemo from "./components/UseEffect/useEffect";
+import FetchOnMount from "./components/FetchExample/FecthOnMount";
 
 const queryClient = new QueryClient();
 
@@ -62,6 +63,7 @@ function App() {
       <YesNo />
       <Time />
       <UseEffectDemo />
+      <FetchOnMount />
     </QueryClientProvider>
   );
 }
