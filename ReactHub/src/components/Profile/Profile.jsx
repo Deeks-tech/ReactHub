@@ -8,6 +8,9 @@ export default function Profile({
 }) {
   const { name, bio, email, hobbies } = data;
 
+  const first = "craig";
+  const second = "phillips";
+
   return (
     <section>
       <div>

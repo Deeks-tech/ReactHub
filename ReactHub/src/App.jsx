@@ -18,8 +18,9 @@ import SumExample from "./components/SumExample/SumExample";
 import Nav from "./components/Nav";
 import RouterExample from "./components/RouterExample/RouterExample";
 import ProfilePage from "./components/Profile/ProfilePage";
-import DumbbtnContainer from "./components/DumbButtonExample/DumbBtnContainer";
 import DumbBtnContainer from "./components/DumbButtonExample/DumbBtnContainer";
+import Object from "./components/ObjectExample/Object";
+import InputWithValidation from "./components/InputExample/InputWithValidation";
 
 const queryClient = new QueryClient();
 
@@ -53,6 +54,8 @@ function App() {
       <RouterExample />
       <ProfilePage />
       <DumbBtnContainer />
+      <Object />
+      <InputWithValidation />
     </QueryClientProvider>
   );
 }
