@@ -21,6 +21,7 @@ import ProfilePage from "./components/Profile/ProfilePage";
 import DumbBtnContainer from "./components/DumbButtonExample/DumbBtnContainer";
 import Object from "./components/ObjectExample/Object";
 import InputWithValidation from "./components/InputExample/InputWithValidation";
+import YesNo from "./components/FetchExample/FetchExample";
 
 const queryClient = new QueryClient();
 
@@ -56,6 +57,7 @@ function App() {
       <DumbBtnContainer />
       <Object />
       <InputWithValidation />
+      <YesNo />
     </QueryClientProvider>
   );
 }
