@@ -39,31 +39,33 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <Nav />
       <Header />
-      <FetchQueryExample />
+      <div className="container">
+        <FetchQueryExample />
 
-      <VariableToPassContext.Provider value={{ variableToPass, passMore }}>
-        <ContextExample />
-      </VariableToPassContext.Provider>
+        <VariableToPassContext.Provider value={{ variableToPass, passMore }}>
+          <ContextExample />
+        </VariableToPassContext.Provider>
 
-      <RenderList data={data} />
-      <RenderList2 />
-      <FetchWithAsync />
-      <CounterExample />
-      <IteratingList />
-      <OpenClose />
-      <DateCounter />
-      <ButtonChange />
-      <InputRender />
-      <SumExample />
-      <RouterExample />
-      <ProfilePage />
-      <DumbBtnContainer />
-      <Object />
-      <InputWithValidation />
-      <YesNo />
-      <Time />
-      <UseEffectDemo />
-      <FetchOnMount />
+        <RenderList data={data} />
+        <RenderList2 />
+        <FetchWithAsync />
+        <CounterExample />
+        <IteratingList />
+        <OpenClose />
+        <DateCounter />
+        <ButtonChange />
+        <InputRender />
+        <SumExample />
+        <RouterExample />
+        <ProfilePage />
+        <DumbBtnContainer />
+        <Object />
+        <InputWithValidation />
+        <YesNo />
+        <Time />
+        <UseEffectDemo />
+        <FetchOnMount />
+      </div>
     </QueryClientProvider>
   );
 }
