@@ -44,7 +44,7 @@ export default function SumExample() {
       </div>
       <div>
         <h2>
-          {`${num1} + ${num2} =`} {sumUp(num1, num2)}
+          {num1} + {num2} = {sumUp(num1, num2)}
         </h2>
       </div>
     </section>
