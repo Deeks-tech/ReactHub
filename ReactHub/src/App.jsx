@@ -26,6 +26,7 @@ import Time from "./components/UseEffect/TimeExample/Time";
 import UseEffectDemo from "./components/UseEffect/useEffect";
 import FetchOnMount from "./components/FetchExample/FecthOnMount";
 import UseMemoExample from "./components/UseDemoExample/UseMemoExample";
+import DayJS from "./components/DayJSExample/DayJS";
 
 const queryClient = new QueryClient();
 
@@ -67,6 +68,7 @@ function App() {
         <UseEffectDemo />
         <FetchOnMount />
         <UseMemoExample />
+        <DayJS />
       </div>
     </QueryClientProvider>
   );
